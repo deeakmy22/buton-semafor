@@ -1,0 +1,49 @@
+body {
+    margin: 50px;
+    text-align: center;
+}
+
+button {
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn-red {
+    background-color: red;
+    border: 1px solid red;
+}
+
+.btn-red:hover {
+    background-color: red;
+    color: yellow;
+}
+
+.btn-yellow {
+    background-color: yellow;
+    border: 1px solid yellow;
+    color: black;
+}
+
+.btn-yellow:hover {
+    background-color: yellow;
+    color: green;
+}
+
+.btn-green {
+    background-color: green;
+    border: 1px solid green;
+}
+
+.btn-green:hover {
+    background-color: green;
+    color: red;
+}
+
