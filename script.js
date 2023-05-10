@@ -16,6 +16,7 @@ const changeColor = () => {
   index = index >= colors.length - 1 ? 0 : index + 1;
 };
 
-setInterval(changeColor, 10000);
-
 buttonElement.addEventListener("click", changeColor);
+
+// Bonus part: changes colour every 10 minutes
+setInterval(changeColor, 10000);
